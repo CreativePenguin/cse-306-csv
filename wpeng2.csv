@@ -1,3 +1,4 @@
 DATE,        UBIT,      DURATION,    ACTIVITY & TOOL DESCRIPTION
 2023/02/11,  wpeng2,  30 minutes,    Read over project description with group & distribute tasks
 2023/02/14,  wpeng2,  10 minutes,    Generate basic github repo for group members to copy and clone. Also create csv file to track data.
+2023/02/14,  wpeng2,  10 mintes,     Write code to parse out arguments and read file -- data is currently not formatted in any way
