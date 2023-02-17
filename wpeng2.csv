@@ -2,6 +2,6 @@ DATE,        UBIT,      DURATION,    ACTIVITY & TOOL DESCRIPTION
 2023/02/11,  wpeng2,  30 minutes,    Read over project description with group & distribute tasks
 2023/02/14,  wpeng2,  10 minutes,    Generate basic github repo for group members to copy and clone. Also create csv file to track data.
 2023/02/14,  wpeng2,  10 minutes,    Write code to parse out arguments and read file -- data is currently not formatted in any way
-2023/02/15,  wpeng2, 120 minutes,    In person meeting -- merge together code done independently
-2023/02/16,  wpeng2, 120 minutes,    Finish helper function to calculate file header
+2023/02/15,  wpeng2, 150 minutes,    In person meeting -- merge together code done independently
+2023/02/16,  wpeng2, 120 minutes,    Finish helper function to calculate file header. Thanks Emacs :D
 2023/02/16,  wpeng2, 100 minutes,    Add statements to validate inputs for helper functions for -min, -max, and -mean
