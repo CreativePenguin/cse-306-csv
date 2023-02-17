@@ -7,6 +7,6 @@ debug:
 
 test:
 	gcc tmp.c
-	./a.out
+	./a.out failure
 clean:
 	rm csv a.out tmp.c main.c~

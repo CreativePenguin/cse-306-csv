@@ -89,6 +89,31 @@ char **dash_h2(FILE *fp) {
     return header;
 }
 
+char *to_upper(char *in) {
+    for(int i = 0; in[i] != NULL; i++) {
+        if(in[i] >= 'a' && in[i] <= 'z') {
+            in[i] = in[i] - 32;
+        }
+    }
+    return in;
+}
+
+void mmm_input_validate(int argc, int i, char *errorfield) {
+    if(i + 1 >= argc - 1) {
+        printf("Missing argument after %s\n", errorfield);
+        exit(EXIT_FAILURE);
+    }
+}
+
+int mmm_input_calc_col(char **header, char *userinput) {
+    userinput = to_upper(userinput);
+    for(int j = 0; header[j] != NULL; j++) {
+        if(strcmp(to_upper(header[j]), userinput) == 0) { return j; }
+    }
+    printf("header not found\n");
+    exit(EXIT_FAILURE);
+}
+
 int main(int argc, char* argv[]) {
     FILE *fp;
     /**
@@ -104,18 +129,14 @@ int main(int argc, char* argv[]) {
         exit(EXIT_FAILURE);
     }
 
-    char **header = calloc(512, sizeof(char*));
-    header = dash_h(fp, &header);
-    printf("finished function: header[0]%s\n", header[0]);
-    int i = 0;
-    for(i = 0; header[i] != NULL; i++) {
-	    printf("%s\n", header[i]);
-    }
+    //IMPORTANT CODE DO NOT DELETE
+    //if(strcmp("-mean",argv[i]) == 0){
+    //    mmm_input_validate(argc, i, "-mean");
+    //    //set column value depending on whether -h is used.
+    //    int col = isdashh ? mmm_input_calc_col(header, argv[i + 1]) : atoi(argv[i + 1]);
+    //}
+
     fclose(fp);
 
-    // dash_h2(fp);
-    // char **header;
-    // header = dash_h2(fp);
-    // printf("main header %s\n", header);
     return(EXIT_SUCCESS);
 }
