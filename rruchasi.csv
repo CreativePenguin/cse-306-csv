@@ -1,5 +1,10 @@
 DATE,        UBIT,      DURATION,    ACTIVITY & TOOL DESCRIPTION
-2023/02/11,  rruchasi,  30 minutes,    Read over project description with group & distribute tasks
-2023/02/14,  ruuchasi,   150 minutes,      work with group in writing function (in emacs)
-2023/02/15,  rruchasi,   45 minutes,    Wrote function dash f in c
-2023/02/16,  rruchasi,   50 minutes,    Wrote function dash d in c and tested both of the function to see if they are working  
+
+2023/02/11,  rruchasi,   30 minutes,    Read over project description with group & distribute tasks.
+2023/02/14,  ruuchasi,   150 minutes,   work with group in writing function (in emacs).
+2023/02/15,  rruchasi,   45 minutes,    Wrote function dash f in c and tried to test it (faced some problems).
+2023/02/16,  rruchasi,   50 minutes,    Wrote function dash d in c and tested both of the function to see if they are working. 
+2023/02/17,  rruchasi,   40 minutes,    debuging the main function faced problem with c conversion (ascii to string, comparing strs and etc)
+2023/02/17,  rruchasi,   45 minutes,    helped Solomon fix and debug the code for mean function. 
+2023/02/17,  rruchasi,   20 minutes,    helped Winston and Yuanji helped writing the tests for other function.
+2023/02/17,  rruchasi,   240 minutes,   meet with grp, wrote mean function and helped in fixing and debug the mean function (our make file crashed, had to revert to previus commit )
